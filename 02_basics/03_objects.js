@@ -1,9 +1,9 @@
-// singleton
+// non-singleton
 // Object.create
 
 // object literals
 const mySym = Symbol("robot");
-
+//non-singleton object
 const JsUser = {
     name: "ikrash",
     "full name": "hafiz ikrash",
