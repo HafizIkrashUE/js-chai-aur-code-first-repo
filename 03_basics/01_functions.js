@@ -30,26 +30,22 @@
 
 /*** next video ***/
 
-function calculateCartPrice(...prices){
-    return prices.reduce((total,price)=> total + price,0);
+// function calculateCartPrice(...prices){
+//     return prices.reduce((total,price)=> total + price,0);
+// }
+// console.log(calculateCartPrice(200,300,400,500,600));
+const userobject = {
+    username: "ikrash",
+    id: 21
+};
+
+function myfunction(myobject) {
+    console.log(`my username is ${myobject.username} and the id is ${myobject.id}`);
 }
-console.log(calculateCartPrice(200,300,400,500,600));
+
+myfunction(userobject);
 
 
-// function calculateCartPrice(val1, val2, ...num1){
-//     return num1
-// }
-
-// // console.log(calculateCartPrice(200, 400, 500, 2000))
-
-// const user = {
-//     username: "hitesh",
-//     prices: 199
-// }
-
-// function handleObject(anyobject){
-//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
-// }
 
 // handleObject(user)
 // handleObject({
