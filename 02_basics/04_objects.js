@@ -1,8 +1,9 @@
-//singleton object
 
 
-// const tinderUser = new Object()
+
+// const tinderUser = new Object()  //singleton object bcz it created with constructor
 //const tinderUser = {} //we commonly used this method
+// this is non-singleton object bcz it created with object literals not with constructor
 
 
 // tinderUser.id = "123abc"
@@ -59,25 +60,22 @@
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-
-
 //***next video */
-// const course = {
-//     coursename: "js in hindi",
-//     price: "999",
-//     courseInstructor: "hitesh"
-// }
+const subject = {
+    name: "english",
+    price: "3000",
+    subjectTeacher: "ikrash"
+};
 
-// course.courseInstructor
-
-//const {courseInstructor: instructor} = course
-
-// console.log(courseInstructor);
-//console.log(instructor);
+//console.log(subject.subjectTeacher); dot method for accessing properties of object
+const{subjectTeacher}=subject; //destructuring modern method 
+const{subjectTeacher:teacher}=subject;
+console.log(teacher);
+// JSON 
 
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "name": "ikrash",
+//     "coursename": "js in urdu",
 //     "price": "free"
 // }
 
