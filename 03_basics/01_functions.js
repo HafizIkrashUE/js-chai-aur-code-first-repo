@@ -30,6 +30,12 @@
 
 /*** next video ***/
 
+function calculateCartPrice(...prices){
+    return prices.reduce((total,price)=> total + price,0);
+}
+console.log(calculateCartPrice(200,300,400,500,600));
+
+
 // function calculateCartPrice(val1, val2, ...num1){
 //     return num1
 // }
