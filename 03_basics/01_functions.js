@@ -34,30 +34,23 @@
 //     return prices.reduce((total,price)=> total + price,0);
 // }
 // console.log(calculateCartPrice(200,300,400,500,600));
-const userobject = {
-    username: "ikrash",
-    id: 21
-};
+// const userobject = {
+//     username: "ikrash",
+//     id: 21
+// };
 
-function myfunction(myobject) {
-    console.log(`my username is ${myobject.username} and the id is ${myobject.id}`);
-}
-
-myfunction(userobject);
-
-
-
-// handleObject(user)
-// handleObject({
-//     username: "sam",
-//     price: 399
-// })
-
-// const myNewArray = [200, 400, 100, 600]
-
-// function returnSecondValue(getArray){
-//     return getArray[1]
+// function myfunction(myobject) {
+//     console.log(`my username is ${myobject.username} and the id is ${myobject.id}`);
 // }
 
-// console.log(returnSecondValue(myNewArray));
-//console.log(returnSecondValue([200, 400, 500, 1000]));
+// myfunction(userobject);
+
+
+// const mynewarray = [10,20,30,40,50];
+// function mysecondvalue(myarray){
+//     return myarray[2];
+// }
+// console.log(mysecondvalue(mynewarray));
+
+// console.log(mysecondvalue([10,20,30,40,50]));
+
