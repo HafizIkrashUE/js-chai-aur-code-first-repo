@@ -1,58 +1,58 @@
-//var c = 300
-let a = 300
+let a = 10;
+const b = 20;
+//var c = 30;
+
 if (true) {
-    let a = 10
-    const b = 20
-    // console.log("INNER: ", a);
+    let a = 100;
+    const b = 200;
+    console.log("inner:",a);
     
+    //var c = 300;
 }
 
+console.log(a); // 10
+console.log(b); // 20
+//console.log(c); // 300
 
 
-// console.log(a);
-// console.log(b);
-// console.log(c);
+// new video
 
+// function one() {
+//     const username = "hitesh"
 
-function one(){
-    const username = "hitesh"
+//     function two() {
+//         const website = "youtube"
+//         // console.log(username);
+//         // console.log(website);
+//     }
 
-    function two(){
-        const website = "youtube"
-        console.log(username);
-    }
-    // console.log(website);
+//     // two()
+// }
 
-     two()
+// // one()
 
-}
+// if (true) {
+//     const username = "hitesh"
+//     if (username === "hitesh") {
+//         const website = "youtube"
+//         // console.log(username + website);
+//     }
+//     // console.log(website);
+// }
 
-// one()
-
-if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
-        const website = " youtube"
-        // console.log(username + website);
-    }
-    // console.log(website);
-}
-
-// console.log(username);
-
+// // console.log(username);
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
+// console.log(addone(5))
 
-console.log(addone(5))
+// function addone(num) {
+//     return num + 1
+// }
 
-function addone(num){
-    return num + 1
-}
+// addTwo(5)
+// const addTwo = function(num) {
+//     return num + 2
+// }
 
-
-
-addTwo(5)
-const addTwo = function(num){
-    return num + 2
-}
+*/
