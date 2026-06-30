@@ -1,5 +1,5 @@
 const user = {
-    username: "ikrash",
+    username: "ikrash riaz",
     price: 999,
 
     welcomeMessage: function() {
