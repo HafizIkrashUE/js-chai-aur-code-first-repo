@@ -1,6 +1,7 @@
+
 // if
-const isUserloggedIn = true
-const temperature = 41
+// const isUserloggedIn = true
+// const temperature = 41
 
 // if ( temperature === 40 ){
 //     console.log("less than 50");
@@ -38,15 +39,28 @@ const temperature = 41
 
 // }
 
-const userLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
+// const temperature = 40;
+// if (temperature>45){
+//     console.log("temperature is greater that 45 degree");
+// }
+// else if (temperature>35){
+//     console.log("temperature is greater than 35 degree");
+    
+// }
+// else{
+//     console.log("temperature is not recognized");
+    
+// }
 
-if (userLoggedIn && debitCard && 2==3) {
-    console.log("Allow to buy course");
-}
+// const userLoggedIn = true
+// const debitCard = true
+// const loggedInFromGoogle = false
+// const loggedInFromEmail = true
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-    console.log("User logged in");
-}
+// if (userLoggedIn && debitCard ) {
+//     console.log("Allow to buy course");
+// }
+
+// if (loggedInFromGoogle || loggedInFromEmail) {
+//     console.log("User logged in");
+// }
