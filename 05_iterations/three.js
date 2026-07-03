@@ -16,14 +16,13 @@
 
 // // Maps
 
-// const map = new Map()
-// map.set('IN', "India")
-// map.set('USA', "United States of America")
-// map.set('Fr', "France")
-// map.set('IN', "India")
+const map = new Map()
+map.set('IN', "India")
+map.set('USA', "United States of America")
+map.set('Fr', "France")
+map.set('PK', "Pakistan")
 
-
-// // console.log(map);
+// console.log(map);
 
 // for (const [key, value] of map) {
 //     // console.log(key, ':-', value);
