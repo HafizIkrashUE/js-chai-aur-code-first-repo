@@ -30,38 +30,27 @@
 
 /*** next video ***/
 
-function calculateCartPrice(...prices){
-    return prices.reduce((total,price)=> total + price,0);
-}
-console.log(calculateCartPrice(200,300,400,500,600));
+// function calculateCartPrice(...prices){
+//     return prices.reduce((total,price)=> total + price,0);
+// }
+// console.log(calculateCartPrice(200,300,400,500,600));
+// const userobject = {
+//     username: "ikrash",
+//     id: 21
+// };
 
-
-// function calculateCartPrice(val1, val2, ...num1){
-//     return num1
+// function myfunction(myobject) {
+//     console.log(`my username is ${myobject.username} and the id is ${myobject.id}`);
 // }
 
-// // console.log(calculateCartPrice(200, 400, 500, 2000))
+// myfunction(userobject);
 
-// const user = {
-//     username: "hitesh",
-//     prices: 199
+
+// const mynewarray = [10,20,30,40,50];
+// function mysecondvalue(myarray){
+//     return myarray[2];
 // }
+// console.log(mysecondvalue(mynewarray));
 
-// function handleObject(anyobject){
-//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
-// }
+// console.log(mysecondvalue([10,20,30,40,50]));
 
-// handleObject(user)
-// handleObject({
-//     username: "sam",
-//     price: 399
-// })
-
-// const myNewArray = [200, 400, 100, 600]
-
-// function returnSecondValue(getArray){
-//     return getArray[1]
-// }
-
-// console.log(returnSecondValue(myNewArray));
-//console.log(returnSecondValue([200, 400, 500, 1000]));

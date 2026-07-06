@@ -17,8 +17,7 @@
     
 })();
 
-// ( (name) => {
-//     console.log(`DB CONNECTED TWO ${name}`);
-// } )('ikrash')
-
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('hitesh')
 
