@@ -1,10 +1,10 @@
-// let myName = "hitesh     "
-// let mychannel = "chai     "
+// let myName = "ikrash"
+// let mychannel = "hafiz"
 
 // console.log(myName.trueLength);
 
 
-let myHeros = ["thor", "spiderman"]
+let myHeros = ["superman", "spiderman"]
 
 
 let heroPower = {
