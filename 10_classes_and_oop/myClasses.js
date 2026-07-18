@@ -1,25 +1,22 @@
-// ES6
-
+// // ES6
 class User {
-    constructor(username, email, password){
+    constructor(username,email,password){
         this.username = username;
         this.email = email;
-        this.password = password
+        this.password = password;
     }
 
-    encryptPassword(){
+    encryptpassword(){
         return `${this.password}abc`
     }
-    changeUsername(){
+    changetouppercase(){
         return `${this.username.toUpperCase()}`
     }
-
 }
+const user1 = new User("ikrash","mail@","321");
+console.log(user1.encryptpassword());
+console.log(user1.changetouppercase());
 
-const chai = new User("chai", "chai@gmail.com", "123")
-
-console.log(chai.encryptPassword());
-console.log(chai.changeUsername());
 
 // behind the scene happening
 
