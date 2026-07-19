@@ -116,7 +116,6 @@ The goal of this repository is to:
 
 This repository is based on the **JavaScript Playlist by Chai Aur Code**.
 
-Huge thanks to **Hitesh Choudhary Sir** for creating such an amazing JavaScript course for the developer community.
 
 ---
 
