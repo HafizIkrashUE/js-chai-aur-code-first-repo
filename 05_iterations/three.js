@@ -17,7 +17,7 @@
 // // Maps
 
 const map = new Map()
-map.set('IN', "India")
+map.set('PAK', "PAKISTAN")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
 map.set('PK', "Pakistan")
