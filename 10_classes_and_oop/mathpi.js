@@ -1,34 +1,27 @@
-const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
+// const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
 
-// console.log(descripter);
+// // console.log(descripter);
 
-// console.log(Math.PI);
-// Math.PI = 5
-// console.log(Math.PI);
-
-const chai = {
+// // console.log(Math.PI);
+// // Math.PI = 5
+// // console.log(Math.PI);
+const myobj = {
     name: 'ginger chai',
     price: 250,
     isAvailable: true,
 
-    orderChai: function(){
-        console.log("chai nhi bni");
+    orderChai: function () {
+        console.log("Allah Almighty is the best creator in the world");
     }
 }
 
-console.log(Object.getOwnPropertyDescriptor(chai, "name"));
-
-Object.defineProperty(chai, 'name', {
-    //writable: false,
+Object.defineProperty(myobj, 'price', {
+    writable: false,
     enumerable: true,
-    
-})
+});
 
-console.log(Object.getOwnPropertyDescriptor(chai, "name"));
-
-for (let [key, value] of Object.entries(chai)) {
+for (let [key, value] of Object.entries(myobj)) {
     if (typeof value !== 'function') {
-        
         console.log(`${key} : ${value}`);
     }
 }
