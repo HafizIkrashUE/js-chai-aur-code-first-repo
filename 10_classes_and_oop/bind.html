@@ -10,22 +10,21 @@
 </body>
 <script>
     class React {
-        constructor(){
-            this.library = "React"
-            this.server = "https://localhost:300"
+         constructor(){
+             this.library = "React"
+             this.server = "https://localhost:300"
+    //requirement
+             document
+                 .querySelector('button')
+                 .addEventListener('click', this.handleClick.bind(this))
 
-            //requirement
-            document
-                .querySelector('button')
-                .addEventListener('click', this.handleClick.bind(this))
+         }
+         handleClick(){
+             console.log("button clicked");
+             console.log(this.server);
+         }
+     }
 
-        }
-        handleClick(){
-            console.log("button clicked");
-            console.log(this.server);
-        }
-    }
-
-    const app = new React()
+     const app = new React()
 </script>
 </html>
